@@ -1,4 +1,4 @@
-Classes ->
+Classes 	/	Desenvolvedor
 
 Anuncio			Eduardo
 EstadoAnuncio		Livre
@@ -8,5 +8,25 @@ HorarioVisita		Livre
 Locacao			Livre
 Questao			Livre
 Usuario			Livre
+
+
+
+Casos de Uso	/			Ator
+
+UC01		Pesquisar Anuncios	Anonimo
+UC02		Cadastrar Cliente	Anonimo
+UC03		Atualizar Cliente	Cliente
+UC04		Manter Anuncio		Cliente
+UC05		Encerrar Anuncio	Cliente
+UC06		Avaliar Anuncio		Cliente
+UC07		Manter Visitação	Cliente
+UC08		Agendar Visitação	Cliente
+UC09		Realizar Pergunta	Cliente
+UC10		Responder Pergunta	Cliente
+UC11		Avaliar Usuario		Cliente
+UC12		Favoritar		Cliente
+UC13		Visualizar Interessados	Cliente
+UC14 		Visualizar Usuario	Cliente	
+UC15		Reativar Anuncio	Cliente
 
 
