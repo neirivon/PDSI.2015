@@ -3,9 +3,9 @@ Classes 	/	Desenvolvedor
 Anuncio			Eduardo
 EstadoAnuncio		Livre
 Favorito		Livre
-Foto			Livre
+Foto			Itamar
 HorarioVisita		Livre
-Locacao			Livre
+Locacao			Francisco
 Questao			Livre
 Usuario			Livre
 
