@@ -6,7 +6,7 @@
 package Dominio;
 
 /**
- * @author eduardorocha
+ * @author renzorodrigues
  */
 
 public class Usuario {
