@@ -3,12 +3,15 @@
   <persistence-unit name="LocarImoveisPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/LocarImoveis?zeroDateTimeBehavior=convertToNull"/>
-      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://208.53.137.76:3306/imobiliaria?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="imobiliaria"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="javax.persistence.jdbc.password" value="pugh3ieXpugh3ieX"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
+      <!-- http://ns1.ispbrasil.com.br/phpmyadmin/index.php --> 
+      <!-- usuario: imobiliaria --> 
+      <!-- senha: pugh3ieXpugh3ieX --> 
     </properties>
   </persistence-unit>
 </persistence>
