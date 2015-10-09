@@ -1,0 +1,12 @@
+Classes ->
+
+Anuncio			Eduardo
+EstadoAnuncio		Livre
+Favorito		Livre
+Foto			Livre
+HorarioVisita		Livre
+Locacao			Livre
+Questao			Livre
+Usuario			Livre
+
+
