@@ -27,7 +27,8 @@ public class Principal {
 	em.getTransaction().begin();
         Foto f1 = new Foto(1, "c:\\fotos\\teste.jpg");
         em.persist(f1);
-        em.merge(f1);
+        //em.merge(f1);
+        
         em.getTransaction().commit();
 
         
