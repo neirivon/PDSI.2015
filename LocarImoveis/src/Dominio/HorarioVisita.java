@@ -6,7 +6,7 @@
 package Dominio;
 
 /**
- * @author eduardorocha
+ * @author Neirivon Elias Cardoso
  */
 
 public class HorarioVisita {
