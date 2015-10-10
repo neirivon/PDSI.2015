@@ -2,16 +2,17 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="LocarImoveisPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <!-- o de cima nao funcionou no netbeans 8.0.2 <provider>org.hibernate.ejb.HibernatePersistence</provider> -->
+    <shared-cache-mode>NONE</shared-cache-mode>
     <properties>
+      <!-- http://ns1.ispbrasil.com.br/phpmyadmin/index.php -->
+      <!-- usuario: imobiliaria -->
+      <!-- senha: pugh3ieXpugh3ieX -->
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://208.53.137.76:3306/imobiliaria?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="imobiliaria"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="pugh3ieXpugh3ieX"/>
-      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
-      <property name="javax.persistence.schema-generation.database.action" value="create"/>
-      <!-- http://ns1.ispbrasil.com.br/phpmyadmin/index.php --> 
-      <!-- usuario: imobiliaria --> 
-      <!-- senha: pugh3ieXpugh3ieX --> 
+      <property name="javax.persistence.schema-generation.database.action" value="none"/>
     </properties>
   </persistence-unit>
 </persistence>
