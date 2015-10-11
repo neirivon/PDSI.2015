@@ -4,7 +4,7 @@ Anuncio			Eduardo
 EstadoAnuncio		Livre
 Favorito		Livre
 Foto			Itamar
-HorarioVisita		Livre
+HorarioVisita		Neirivon
 Locacao			Francisco
 Questao			Livre
 Usuario			Renzo
